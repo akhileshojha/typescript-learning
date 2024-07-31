@@ -1,0 +1,51 @@
+/* src/styles.css */
+
+.App {
+    text-align: center;
+  }
+  
+  .gallery {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .image-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .image-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    cursor: pointer;
+    width: 150px;
+  }
+  
+  .image-item img {
+    max-width: 100%;
+  }
+  
+  .image-details {
+    margin-top: 20px;
+  }
+  
+  .add-image-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .add-image-form input,
+  .add-image-form textarea {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .add-image-form button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
